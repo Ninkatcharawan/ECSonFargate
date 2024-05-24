@@ -1,2 +1,3 @@
-# ECSonFargate
-Deploying a Dockerized Web Application with AWS ECS and Fargate
+docker build  --tag website . 
+
+docker run -d -p 8080:80 website
